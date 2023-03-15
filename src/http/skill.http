@@ -1,0 +1,23 @@
+GET http://localhost:5000/api/skill
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/skill
+Content-Type: application/json
+
+{
+  "name": "NodeJs",
+  "note": 10
+}
+
+###
+PUT http://localhost:5000/api/skill/1
+Content-Type: application/json
+
+{
+  "name": "NodeJs"
+}
+
+###
+DELETE http://localhost:5000/api/skill/9
+Content-Type: application/json

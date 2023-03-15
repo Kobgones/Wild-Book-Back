@@ -1,0 +1,36 @@
+POST http://localhost:5000/api/addSkill
+Content-Type: application/json
+
+{
+    "wilderName": "Clint Capela",
+    "skillName": "Java"
+}
+
+###
+// add a wilder
+POST http://localhost:5000/api/wilder
+Content-Type: application/json
+
+{
+  "name": "James Harden",
+  "city": "Houston"
+}
+
+###
+// get all wilders
+GET http://localhost:5000/api/wilder
+Content-Type: application/json
+
+###
+// update a wilder
+PUT http://localhost:5000/api/wilder/4
+Content-Type: application/json
+
+{
+  "name": "Kyrie Irving"
+}
+
+###
+// delete a wilder
+DELETE http://localhost:5000/api/wilder/7
+Content-Type: application/json
